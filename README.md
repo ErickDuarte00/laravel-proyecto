@@ -44,7 +44,7 @@ php artisan migrate
 
 ## Ejecutar el Proyecto
 - Terminal 1 (Servidor Laravel):
-php artisan serve
+php artisan serve --host proyectofinal.com --port=80
 
 - Terminal 2 (Compilación de estilos):
 npm run build
