@@ -53,7 +53,7 @@
                 @if (Route::has('login'))
                     @auth
                         <a href="{{ url('/dashboard') }}" class="px-5 py-2 bg-[#5d4037] text-white font-semibold rounded-lg shadow-md hover:bg-opacity-90 transition duration-300 font-averia text-sm">
-                            Ir al Dashboard
+                            Ir al Menú
                         </a>
                     @else
                         <a href="{{ url('/login') }}" class="px-5 py-2 bg-[#5d4037] text-white font-semibold rounded-lg shadow-md hover:bg-opacity-90 transition duration-300 font-averia text-sm">
